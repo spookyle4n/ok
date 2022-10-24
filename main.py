@@ -7,5 +7,5 @@ seed(1)
 # script kiddy
 for i in range(1000000):
 	value = randint(100000, 999999)
-	time.sleep(0.01)
+	time.sleep(0.0001)
 	print(value,"\n", end='', flush=True)

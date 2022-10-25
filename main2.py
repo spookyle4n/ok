@@ -1,11 +1,17 @@
-# nerd
 from random import seed
 from random import randint
 import time
-# clown
-seed(1)
-# script kiddy
-for i in range(1000000):
-	value = randint(100000, 999999)
-	time.sleep(0.0001)
-	print(value,"\n", end='', flush=True)
+import random
+import string
+
+randomnumber = chr(random.randint(ord('0'), ord('9')))
+randomnumber2 = chr(random.randint(ord('0'), ord('9')))
+randomnumber3 = chr(random.randint(ord('0'), ord('9')))
+randomnumber4 = chr(random.randint(ord('0'), ord('9')))
+randomnumber5 = chr(random.randint(ord('0'), ord('9')))
+randomnumber6 = chr(random.randint(ord('0'), ord('9')))
+randomUpperLetter = chr(random.randint(ord('A'), ord('Z')))
+randomLowerLetter = chr(random.randint(ord('a'), ord('z')))
+
+for i in range(10):
+    print(randomnumber + randomnumber2 + randomnumber3 + randomnumber4 + randomnumber5 + randomnumber6 + randomUpperLetter + randomLowerLetter)

@@ -4,6 +4,7 @@ import time
 import random
 import string
 print('''
+\033[34m 
    ____      ____
   |    |    |    |_______________________________
   |    |    |    |         |           |         \
